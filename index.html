@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css//normalize.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="index-warp">
+    <div class="banner-warp">
+      <div class="banner-content w-1200">
+        <div class="logo">logo</div>
+        <div class="log-out-warp">
+          <span class="setting-icon"></span>
+          <span class="notice-icon"></span>
+          <span class="logout-btn">logo out</span>
+        </div>
+      </div>
+    </div>
+    <div class="nav-warp">
+      <div class="nav-content w-1200">
+        <div class="nav-content-left">
+          <span class="title">Audience Overview</span>
+          <span class="desc">Roseville, CA</span>
+        </div>
+        <ul class="nav-content-right">
+          <li class="nav-active nav-item">Dashboard</li>
+          <li class="nav-item">Projects</li>
+          <li class="nav-item">Calendar</li>
+          <li class="nav-item">mailbox</li>
+          <li class="nav-item">settings</li>
+        </ul>
+      </div>
+    </div>
+    <div class="swiper-warp">
+      <div class="swiper-content w-1200">
+        <div class="swiper-content-left">
+          <div class="slider">
+            <div class="slides">
+              <img src="https://img1.baidu.com/it/u=413643897,2296924942&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto?sec=1680541200&t=26be472b80013591100109eb63c7c5ec">
+              <img src="https://img0.baidu.com/it/u=1684532727,1424929765&fm=253&app=120&size=w931&n=0&f=JPEG&fmt=auto?sec=1680541200&t=7198ab8ce25fcf974de69d9b673f748d">
+              <img src="https://img1.baidu.com/it/u=4049022245,514596079&fm=253&app=120&size=w931&n=0&f=JPEG&fmt=auto?sec=1680541200&t=d10303aedc90b7083d705e6dae51e110">
+            </div>
+            <div class="arrows">
+              <div class="arrow left-arrow">&lt;</div>
+              <div class="arrow right-arrow">&gt;</div>
+            </div>
+            <div class="indicators">
+              <div class="indicator active"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+            </div>
+          </div>          
+        </div>
+        <div class="swiper-content-right">
+          <div class="top">
+            <span class="title">Support Requests</span>
+            <span class="btn">View All</span>
+          </div>
+          <div class="bottom">
+            <ul class="table-content">
+              <li>
+                <span class="table-row-title">TIME</span>
+                <span class="table-row-title">USER NAME</span>
+                <span class="table-row-title">STATUS</span>
+              </li>
+              <li>
+                <span class="table-row-content">9:45pm</span>
+                <span class="table-row-content">info@design.com</span>
+                <span class="table-row-content">
+                  <span class="table-row-opa">Solved</span>
+                </span>
+              </li>
+              <li>
+                <span class="table-row-content">9:45pm</span>
+                <span class="table-row-content">info@design.com</span>
+                <span class="table-row-content">
+                  <span class="table-row-opa">Solved</span>
+                </span>
+              </li>
+              <li>
+                <span class="table-row-content">9:45pm</span>
+                <span class="table-row-content">info@design.com</span>
+                <span class="table-row-content">
+                  <span class="table-row-opa">Solved</span>
+                </span>
+              </li>
+              <li>
+                <span class="table-row-content">9:45pm</span>
+                <span class="table-row-content">info@design.com</span>
+                <span class="table-row-content">
+                  <span class="table-row-opa">Solved</span>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 图表 -->
+    <div class="graph-chart-warp">
+      <div class="graph-chart-content w-1200">
+        <span>曲线图数据展示</span>
+        <div id="graph-chart" style=" height: 400px;"></div>
+      </div>
+    </div>
+    <div class="show-chart-warp">
+      <div class="show-chart-content w-1200">
+        <div class="pie-chart-content">
+          <span>饼状图数据展示</span>
+          <div id="pie-chart" style=" height: 400px;"></div>
+        </div>
+        <div class="histogram-chart-content">
+          <span>柱状图数据展示</span>
+          <div id="histogram-chart" style="height:400px;"></div>
+        </div>
+      </div>
+    </div>
+    <!-- 尾部 -->
+    <div class="footer-warp">
+      <div class="footer-content w-1200">
+        <div class="logo">logo</div>
+        <div class="footer-nav-content">
+          <ul>
+            <li>news</li>
+            <li>channels</li>
+            <li>overview</li>
+            <li>timeline</li>
+          </ul>
+          <ul>
+            <li>Sport</li>
+            <li>Culture</li>
+            <li>Nature</li>
+            <li>Music</li>
+          </ul>
+          <ul>
+            <li>weather</li>
+            <li>autos</li>
+            <li>local</li>
+            <li>shop</li>
+          </ul>
+          <ul>
+            <li>future</li>
+            <li>food</li>
+            <li>earth</li>
+            <li>tv</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/echarts.min.js"></script>
+  <script src="./js/swiper.js"></script>
+  <script src="./js/request.js"></script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/index.js"></script>
+
+</body>
+</html>
