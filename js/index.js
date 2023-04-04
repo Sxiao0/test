@@ -66,6 +66,11 @@ var pieOption = {
   },
   tooltip: {
     trigger: "item",
+    axisPointer: {
+      label: {
+        width: 200,
+      },
+    },
   },
   series: [
     {

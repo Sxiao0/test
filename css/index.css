@@ -254,7 +254,7 @@
   width: 100%!important;
 }
 #pie-chart> div {
-  width: 100%!important;
+  /* width: 100%!important; */
 }
 #pie-chart> div canvas{
   width: 100%!important;
