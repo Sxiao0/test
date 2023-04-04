@@ -242,19 +242,19 @@
 }
 /* 折线图 */
 #graph-chart> div {
-  width: 100%;
+  width: 100%!important;
 }
 #graph-chart> div canvas{
   width: 100%!important;
 }
 #pie-chart> div {
-  width: 100%;
+  width: 100%!important;
 }
 #pie-chart> div canvas{
   width: 100%!important;
 }
 #histogram-chart> div {
-  width: 100%;
+  width: 100%!important;
 }
 #histogram-chart> div canvas{
   width: 100%!important;
