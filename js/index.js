@@ -65,6 +65,7 @@ var pieOption = {
     left: "center",
   },
   tooltip: {
+    show: false,
     trigger: "item",
     axisPointer: {
       label: {
