@@ -319,3 +319,6 @@
   margin-bottom: 10px;
   cursor: pointer;
 }
+canvas {
+  aspect-ratio: auto 774 / 495!important;
+}
